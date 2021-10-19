@@ -5,7 +5,7 @@ from faunadb.client import FaunaClient
 from django.http import HttpResponse
 from django.shortcuts import redirect
 
-client = FaunaClient(secret="fnAEPxhMQaACC0tPREr1ZWHygdzT_wPJg8BzKCf4")
+client = FaunaClient(secret="Fill ur own secret key")
 
 # Create your views here.
 def home(request):
